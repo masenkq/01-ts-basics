@@ -10,12 +10,6 @@
 function getFirstElement<T>(arr: T[]): T {  
   return arr[0]; 
 }
-
-getFirstElement([1, 2, 3]);           // 1
-getFirstElement(["a", "b", "c"]);     // "a"
-getFirstElement([true, false, true]); // true
-
-
 // Виклики функції з явною типізацією дженерика
 
 console.log(getFirstElement<number>([1, 2, 3]));
